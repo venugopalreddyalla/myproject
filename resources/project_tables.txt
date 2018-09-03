@@ -14,7 +14,7 @@
 
 			EMPLOYEE_ID EMPLOYEE_NAME
 			----------- --------------------
-				   1996 VENU
+				   1996 *****
 				   
 
 // This Table Contains Request Id's And Request Information
@@ -34,7 +34,7 @@
 
 		REQUEST_ID REQUEST_NAME              MOBILE_NUM REQUEST_INFO                             DATE_INFO
 -		--------- ------------------------- ---------- ---------------------------------------- -----------------------------------------------
-			  1111 venu gopal                9640067163 Request Processing                       01-SEP-18 11.28.33.328000 AM
+			  1111 ******                ********** Request Processing                       01-SEP-18 11.28.33.328000 AM
 
 	
 
@@ -57,69 +57,3 @@
 				1       1111 i want a new field...               01-SEP-18 11.27.15.415000 AM
 				2       1111 Request Received                    01-SEP-18 11.28.33.328000 AM
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<tr>
-					<td><form:label path="presntStatus">Present Status</form:label>
-					</td>
-					<td><form:select path="presntStatus">
-							<option value="NONE">--- Select ---</option>
-							<form:option value="RequestProcessing">Request Processing</form:option>
-							<form:option value="DivEnvironmentProcessing">Div Environment Processing</form:option>
-							<form:option value="SITEnvironmentProcessing">SIT Environment Processing</form:option>
-							<form:option value="CITIsProcessing">CIT Is Processing</form:option>
-							<form:option value="UATIsProcessing">UAT Is Processing</form:option>
-							<form:option value="PRODIsProcessing">PROD Is Processing</form:option>
-
-						</form:select></td>
-					<td><form:errors path="presntStatus"></form:errors></td>
-				</tr>
-
-				<tr>
-					<td><form:label path="completedStatus">Completed Status</form:label>
-					</td>
-					<td><form:select path="completedStatus">
-							<option value="NONE">--- Select ---</option>
-							<form:option value="RequestCompleted">Request Accepted</form:option>
-							<form:option value="DivEnvironmentCompleted">Div Environment Completed</form:option>
-							<form:option value="SITEnvironmentCompleted">SIT Environment Completed</form:option>
-							<form:option value="CITIsCompleted">CIT Is Completed</form:option>
-							<form:option value="UATIsCompleted">UAT Is Completed</form:option>
-							<form:option value="PRODIsCompleted">PROD Is Completed</form:option>
-
-						</form:select></td>
-					<td><form:errors path="completedStatus"></form:errors></td>
-				</tr>
